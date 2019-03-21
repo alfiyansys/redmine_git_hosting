@@ -6,3 +6,7 @@ settings.yml
 /coverage
 /junit
 custom_hooks.rb
+
+
+ssh_keys/redmine_gitolite_admin_id_rsa
+ssh_keys/redmine_gitolite_admin_id_rsa.pub
