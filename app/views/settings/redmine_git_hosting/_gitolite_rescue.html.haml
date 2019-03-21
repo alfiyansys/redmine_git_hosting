@@ -9,3 +9,7 @@
 %p
   = label_tag 'settings[rescue][flush_gitolite_cache]', l(:label_flush_cache)
   = check_box_tag 'settings[rescue][flush_gitolite_cache]', 'true', false
+
+%p
+  = label_tag 'settings[rescue][reset_gitolite_conf]', l(:label_reset_gitolite_conf)
+  = check_box_tag 'settings[rescue][reset_gitolite_conf]', 'true', false
